@@ -1,1 +1,70 @@
-/* Start coding here */
+.feature-section {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+ 
+}
+
+.card {
+  display:  flex;
+  flex-direction: column;
+  background-color: #D7E5F6;
+  width: 387px;
+  padding: 28px;
+  border-radius: 24px;
+  gap: 40px;
+
+}
+
+.card-1 {
+  background-color: #D8E0FC;
+  width: 387px;
+  padding: 28px;
+  border-radius: 24px;
+  gap: 40px;
+  display:  flex;
+  flex-direction: column;
+}
+
+.card-2 {
+  background-color: #E8DCF6;
+  width: 387px;
+  padding: 28px;
+  border-radius: 24px;
+  gap: 40px;
+  display:  flex;
+  flex-direction: column;
+}
+
+.card-title {
+  color: #1A1A2C;
+  font-family: inter;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.card-description {
+  color: #5F5F76;
+  font-family: inter;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.icon-container {
+  background-color: white;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+}
+
+main {
+  display: flex;
+  padding-left: 128;
+  padding-right: 128;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
